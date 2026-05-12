@@ -24,7 +24,7 @@ def generate_barcode_bytes(data, file_format):
     rv.seek(0)
     return rv
 
-st.title("Barcode Generator")
+st.title("Barcode Generator - Code 128")
 
 col1, col2 = st.columns([2, 1])
 with col1:
